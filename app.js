@@ -235,5 +235,3 @@ hard.addEventListener('click',()=>{
   main(dif3)
 })
 
-
-//halp me chat gpt with easy hard and medium evventListeners i need them to be call backs and not trigger untill you click them
