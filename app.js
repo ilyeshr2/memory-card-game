@@ -88,13 +88,18 @@
     }
 
     function checkIfGameIsFinished(){
-      count = 0; // Reset count
+       count = 0;// Reset count
       for (let i = 0; i < cardArray.length; i++) {
         let card3=document.querySelector(`[data-id="${i}"]`)
         console.log(card3)
         console.log(card3.getAttribute('src'))
         if(card3.getAttribute('src')=='images/blank.png'){
           count++
+        }
+        if(count==0){
+          gameFinished=true
+        }else{
+          gameFinished=false
         }
       }
     }
