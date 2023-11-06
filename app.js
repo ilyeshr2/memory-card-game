@@ -131,6 +131,7 @@ setTimeout(() => {
   createBoard2()
 }, "2000");
 function flipCard() {
+  this.removeEventListener('click',flipCard)
   //if(firstBoardIsUp==false){
     //checkIfGameIsFinished()
     if(loose==false && gameFinished==false){
