@@ -129,7 +129,7 @@ setTimeout(() => {
   delBoard()
   //firstBoardIsUp=false
   createBoard2()
-}, "2000");
+}, "4000");
 function flipCard() {
   this.removeEventListener('click',flipCard)
   //if(firstBoardIsUp==false){
